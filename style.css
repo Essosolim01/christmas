@@ -1,0 +1,33 @@
+p {
+    color: rgb(57, 54, 54);
+    width: 500px;
+    background: #e7cc9a96;
+    padding: 6px;
+    border-radius: 15px;
+  }
+  /* positionner  le titre */
+
+  header{
+    position: sticky;
+    top:0 ;
+    background: #a28003;
+    border-radius: 15px;
+  }
+
+ header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #ff8400;
+    text-shadow: 3px 3px 1px rgb(84, 50, 2);
+    writing-mode: 3;
+  }
+  /* centrer l'image */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  /* Mettre en forme l'arriere plan avec du css */
+  body{
+    background: url(./ornaments-1885470_1280.png) no-repeat center center fixed;
+  }
